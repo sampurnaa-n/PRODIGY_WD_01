@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b2e0f5; /* Baby blue background */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffb6c1; /*baby pink color that appears at first */
+    color: black;
+    text-align: center;
+    transition: background-color 3s ease;
+    z-index: 1000;
+}
+
+.navbar h1, .navbar h2 {
+    margin: 0;
+}
+
+.navbar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: navy;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 1s ease;
+}
+
+.navbar nav ul li a:hover {
+    color: #ffff00; /* yellow on scrolling down */
+}
+
+.content {
+    padding-top: 100px; /* Space for fixed navbar */
+}
